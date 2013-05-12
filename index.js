@@ -34,7 +34,7 @@ module.exports = function(username, repo, fn) {
     res.on('data', function(chunk) {
       data += chunk +'';
     });
-    console.log('connecting')
+
   });
 
   req.end();
